@@ -1,0 +1,60 @@
+{
+  "short_name": "Food Donate",
+  "name": "Food Donation Platform - Share Food, Share Love",
+  "description": "Connect surplus food with those in need through real-time 3D tracking",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "/logo192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/logo512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#10b981",
+  "background_color": "#ffffff",
+  "categories": ["food", "social", "donation"],
+  "screenshots": [
+    {
+      "src": "/screenshot1.png",
+      "sizes": "1280x720",
+      "type": "image/png"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Donate Food",
+      "short_name": "Donate",
+      "description": "Create a new food donation",
+      "url": "/create-donation",
+      "icons": [{ "src": "/favicon.ico", "sizes": "96x96" }]
+    },
+    {
+      "name": "Find Donations",
+      "short_name": "Find",
+      "description": "Browse available donations",
+      "url": "/donations",
+      "icons": [{ "src": "/favicon.ico", "sizes": "96x96" }]
+    }
+  ],
+  "permissions": [
+    "geolocation",
+    "notifications",
+    "storage"
+  ]
+}
+
